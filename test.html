@@ -1,26 +1,3 @@
-<script>
-  let projects = [
-    {
-      title: "Project One",
-      img: "https://via.placeholder.com/400x250",
-      description: "A cool project showcasing my skills.",
-      link: "#"
-    },
-    {
-      title: "Project Two",
-      img: "https://via.placeholder.com/400x250",
-      description: "Another example of my work.",
-      link: "#"
-    },
-    {
-      title: "Project Three",
-      img: "https://via.placeholder.com/400x250",
-      description: "This one highlights design and detail.",
-      link: "#"
-    }
-  ];
-</script>
-
 <style>
   body {
     margin: 0;
@@ -118,9 +95,8 @@
 </header>
 
 <section>
-  <h2>My Work</h2>
+  <h2>Parker Miles Blohm</h2>
   <div class="projects">
-    {#each projects as project}
       <div class="card">
         <img src={project.img} alt={project.title} />
         <div class="card-content">
@@ -129,12 +105,11 @@
           <a href={project.link} target="_blank">View Project →</a>
         </div>
       </div>
-    {/each}
   </div>
 </section>
 
 <footer>
   <p>Get in touch:</p>
-  <a href="mailto:youremail@example.com">Email</a> | 
-  <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+  <a href="mailto:parkermilesblohm@gmail.com">Email</a> | 
+  <a href="https://www.linkedin.com/in/parkermilesblohm" target="_blank">LinkedIn</a>
 </footer>
